@@ -51,7 +51,7 @@ private:
 };
 
 // global object
-inline extern Random<> RANDOM;
+inline extern Random<> RAND = Random<>();
 
 }
 

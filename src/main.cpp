@@ -4,7 +4,7 @@
 
 int main(int argc, char **argv)
 {
-    RANDOM::Random<> random;
+    RANDOM::Random<> &random = RAND;
 
     for(int i = 0; i < 10; i++)
     {
